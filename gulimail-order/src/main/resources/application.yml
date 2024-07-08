@@ -1,0 +1,16 @@
+server:
+  address: localhost
+  port: 7300
+
+spring:
+  datasource:
+    username: root
+    password: wql19990322
+    url: jdbc:mysql://localhost:3306/gulimail_oms
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
