@@ -121,18 +121,12 @@ public class Constant {
 
         private int value;
 
-        private Class<?> validatorGroupClass;
-
         CloudService(int value) {
             this.value = value;
         }
 
         public int getValue() {
             return value;
-        }
-
-        public Class<?> getValidatorGroupClass() {
-            return this.validatorGroupClass;
         }
 
         public static CloudService getByValue(Integer value) {
