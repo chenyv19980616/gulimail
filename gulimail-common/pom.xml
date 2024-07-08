@@ -81,8 +81,14 @@
 			<scope>provided</scope>
 		</dependency>
 
+		<!-- 引入 nacos 依赖 -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
 	</dependencies>
 
+	<!-- TODO 以后注意不要引错包了 -->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
