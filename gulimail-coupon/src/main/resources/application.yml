@@ -8,7 +8,14 @@ spring:
     password: wql19990322
     url: jdbc:mysql://localhost:3306/gulimail_sms
     driver-class-name: com.mysql.jdbc.Driver
-
+  application:
+    name: gulimail-coupon
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
