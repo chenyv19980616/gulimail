@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author : chenyv
  * @since : 2024-07-11 22:03
  */
-@FeignClient(value = "gulimail-coupon",fallbackFactory = CouponFeignServiceFallbackFactory.class )
+@FeignClient(value = "gulimail-coupon", fallbackFactory = CouponFeignServiceFallbackFactory.class)
 public interface CouponFeignService {
 
     @RequestMapping("/coupon/coupon/member/list")
