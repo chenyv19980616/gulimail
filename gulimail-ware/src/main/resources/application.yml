@@ -7,8 +7,6 @@ spring:
     password: zhixuanchang
     url: jdbc:mysql://43.143.216.195:3307/gulimail_wms
     driver-class-name: com.mysql.jdbc.Driver
-  application:
-    name: gulimail-ware
   cloud:
     nacos:
       discovery:
