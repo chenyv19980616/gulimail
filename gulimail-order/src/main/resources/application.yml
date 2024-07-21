@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     username: root
-    password: wql19990322
-    url: jdbc:mysql://localhost:3306/gulimail_oms
+    password: zhuxuanchang
+    url: jdbc:mysql://43.143.216.195:3307/gulimail_oms
     driver-class-name: com.mysql.jdbc.Driver
   application:
     name: gulimail-order

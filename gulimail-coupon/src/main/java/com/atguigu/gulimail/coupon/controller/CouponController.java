@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
-import java.util.List;
+import java.util.Collections;
 import java.util.Map;
 
 
@@ -31,7 +31,7 @@ public class CouponController {
     public R memberCoupons(){
         CouponEntity coupon = new CouponEntity();
         coupon.setCouponName("满减");
-        return R.ok().put("coupons", List.of(coupon));
+        return R.ok().put("coupons", Collections.singletonList(coupon));
     }
 
     /**
