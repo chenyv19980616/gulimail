@@ -12,8 +12,8 @@ spring:
       discovery:
         server-addr: 43.143.216.195:8848
         username: nacos
-        password: nacos
-
+        password: zhixuanchang
+        namespace: gulimail-chenyv
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
