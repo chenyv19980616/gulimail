@@ -11,6 +11,9 @@ spring:
     nacos:
       discovery:
         server-addr: 43.143.216.195:8848
+        username: nacos
+        password: nacos
+
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
